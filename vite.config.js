@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [react()],
   server:{
     port:3333
-  }
+  },
+  base:"/ReactApp"
 })

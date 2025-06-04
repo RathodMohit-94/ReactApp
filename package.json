@@ -1,13 +1,13 @@
 {
-  "homepage": "https://RathodMohit-94.github.io/ReactApp",
+  "homepage": "https://RathodMohit-94.github.io/ReactApp/",
   "name": "reactjob",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run dev",
-    "deploy": "gh-pages -d dev",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

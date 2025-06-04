@@ -95,7 +95,7 @@ const Navbar = () => {
 
         {/* Right side - Logo */}
         <div className="bg-slate-200 rounded-lg h-auto">
-          <a href="/">
+          <a href="#" onClick={(e) => handleNavClick(e, "home")}>
             <img
               className="w-12 h-12 rounded-2xl"
               src={logo}

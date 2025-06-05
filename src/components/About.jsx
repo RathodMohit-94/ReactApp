@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from '../assets/cat.png'
+import picture from '../assets/imag3.jpg'
 
 const About = ({
   classification = 'Write your classification',
